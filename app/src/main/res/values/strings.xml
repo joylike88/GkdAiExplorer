@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">智能工具箱</string>
+    <string name="accessibility_service_label">智能清理服务</string>
+    <string name="device_admin_label">设备管理</string>
+
+    <!-- 导航栏 -->
+    <string name="nav_main">首页</string>
+    <string name="nav_discover">发现</string>
+    <string name="nav_rules">规则</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 首页 -->
+    <string name="main_title">智能工具箱</string>
+    <string name="main_subtitle">一键优化，智能清理</string>
+    <string name="main_service_status_running">服务运行中</string>
+    <string name="main_service_status_stopped">服务未启用</string>
+    <string name="main_btn_open_accessibility">去开启无障碍</string>
+    <string name="main_btn_start_scan">开始扫描当前应用</string>
+    <string name="main_scan_hint">点击上方按钮，AI 将分析当前应用界面并生成优化规则</string>
+    <string name="main_recent_scans">最近扫描</string>
+    <string name="main_no_scans_yet">暂无扫描记录</string>
+
+    <!-- 发现页 -->
+    <string name="discover_title">AI 发现</string>
+    <string name="discover_start">开始分析</string>
+    <string name="discover_scanning">正在分析 UI 结构…</string>
+    <string name="discover_analyzing">AI 正在识别模式…</string>
+    <string name="discover_generating">正在生成规则…</string>
+    <string name="discover_completed">分析完成</string>
+    <string name="discover_no_patterns">未发现可优化模式</string>
+    <string name="discover_error">分析失败，请重试</string>
+    <string name="discover_pattern_found">发现 %1$d 个模式，生成 %2$d 条规则</string>
+
+    <!-- 规则页 -->
+    <string name="rules_title">规则管理</string>
+    <string name="rules_empty">暂无规则</string>
+    <string name="rules_enabled">已启用</string>
+    <string name="rules_disabled">已禁用</string>
+    <string name="rules_btn_enable">启用</string>
+    <string name="rules_btn_disable">禁用</string>
+    <string name="rules_btn_delete">删除</string>
+    <string name="rules_trigger_count">触发 %1$d 次</string>
+    <string name="rules_last_triggered">上次触发：%1$s</string>
+    <string name="rules_never_triggered">从未触发</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_llm_config">LLM 配置</string>
+    <string name="settings_api_endpoint">API 地址</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_model">模型名称</string>
+    <string name="settings_test_connection">测试连接</string>
+    <string name="settings_connection_success">连接成功</string>
+    <string name="settings_connection_failed">连接失败：%1$s</string>
+    <string name="settings_auto_scan">自动扫描</string>
+    <string name="settings_auto_scan_summary">打开应用时自动分析界面</string>
+    <string name="settings_notifications">通知提醒</string>
+    <string name="settings_notifications_summary">发现新规则时通知</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_open_source">开源协议</string>
+
+    <!-- 通用 -->
+    <string name="loading">加载中…</string>
+    <string name="retry">重试</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="apply">应用</string>
+    <string name="discard">丢弃</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+
+    <!-- 模式类型 -->
+    <string name="pattern_type_ad_close">广告关闭按钮</string>
+    <string name="pattern_type_popup_dialog">弹窗对话框</string>
+    <string name="pattern_type_splash_ad">开屏广告</string>
+    <string name="pattern_type_banner_ad">横幅广告</string>
+    <string name="pattern_type_reward_video_skip">激励视频跳过</string>
+    <string name="pattern_type_permission_dialog">权限请求弹窗</string>
+    <string name="pattern_type_update_dialog">更新提示弹窗</string>
+    <string name="pattern_type_custom">自定义模式</string>
+
+    <!-- 动作类型 -->
+    <string name="action_click">点击</string>
+    <string name="action_back">返回</string>
+    <string name="action_home">Home</string>
+    <string name="action_text_input">输入文本</string>
+    <string name="action_swipe">滑动</string>
+    <string name="action_long_press">长按</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_id">ai_explorer_channel</string>
+    <string name="notification_channel_name">AI 探索通知</string>
+    <string name="notification_scan_complete_title">扫描完成</string>
+    <string name="notification_scan_complete_text">发现 %1$d 个可优化项，已自动生成规则</string>
+
+    <!-- Toast 提示 -->
+    <string name="toast_accessibility_required">请先开启无障碍服务</string>
+    <string name="toast_scan_started">开始扫描当前应用</string>
+    <string name="toast_scan_completed">扫描完成，生成 %1$d 条规则</string>
+    <string name="toast_no_foreground_app">无法获取当前前台应用</string>
+    <string name="toast_rule_applied">规则已应用</string>
+    <string name="toast_rule_removed">规则已移除</string>
+    <string name="toast_settings_saved">设置已保存</string>
+
+    <!-- 设置页补充 -->
+    <string name="settings_connection_missing_fields">请填写 API 地址和 Key</string>
+    <string name="settings_connection_failed_generic">连接失败，请检查配置</string>
+    <string name="settings_privacy_summary">隐私政策页面开发中</string>
+    <string name="settings_open_source_summary">开源协议页面开发中</string>
+    <string name="search_rules_hint">搜索规则…</string>
+    <string name="rules_stats_total">总规则数</string>
+    <string name="rules_trigger_count_label">总触发次数</string>
+    <string name="rules_clear_all">清除所有规则</string>
+    <string name="rules_clear_all_confirm">确定要清除所有规则吗？此操作不可恢复。</string>
+    <string name="service_running">服务运行中</string>
+    <string name="service_not_running">服务未启用</string>
+    <string name="rules_loaded_count">已加载 %1$d 条规则</string>
+    <string name="service_not_running_msg">无障碍服务未运行，请在系统设置中启用“智能清理服务”</string>
+    <string name="scanning">扫描中…</string>
+    <string name="service_not_running">服务未启用</string>
+    <string name="service_not_running_msg">无障碍服务未运行，请在系统设置中启用“智能清理服务”</string>
+    <string name="rules_stats_total">总规则数</string>
+    <string name="rules_trigger_count_label">总触发次数</string>
+    <string name="search_rules_hint">搜索规则…</string>
+    <string name="rules_clear_all">清除所有规则</string>
+    <string name="rules_clear_all_confirm">确定要清除所有规则吗？此操作不可恢复。</string>
+    <string name="service_running">服务运行中</string>
+    <string name="service_not_running">服务未启用</string>
+    <string name="rules_loaded_count">已加载 %1$d 条规则</string>
+    <string name="scanning">扫描中…</string>
+    <string name="settings_features">功能开关</string>
+    <string name="settings_on">开</string>
+    <string name="settings_off">关</string>
+</resources>

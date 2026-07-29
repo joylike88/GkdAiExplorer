@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GkdAiExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF6750A4</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#FFEADDFF</item>
+        <item name="colorSecondary">#FF625B71</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">#FF1C1B1F</item>
+        <item name="colorError">#FFB3261E</item>
+        <item name="android:colorBackground">#FFFFFBFE</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.GkdAiExplorer.NoActionBar" parent="Theme.GkdAiExplorer">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

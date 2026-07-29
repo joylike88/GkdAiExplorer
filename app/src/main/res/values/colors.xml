@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- 语义化颜色 -->
+    <color name="success_green">#FF2E7D32</color>
+    <color name="warning_orange">#FFF57C00</color>
+    <color name="error_red">#FFC62828</color>
+    <color name="info_blue">#FF1565C0</color>
+</resources>
